@@ -1,0 +1,6 @@
+subscription {
+  postCreated {
+    author
+    comment
+  }
+}

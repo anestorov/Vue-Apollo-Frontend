@@ -1,0 +1,6 @@
+mutation($makePostAuthor: String, $makePostComment: String) {
+  makePost(author: $makePostAuthor, comment: $makePostComment) {
+    author
+    comment
+  }
+}
